@@ -1,95 +1,144 @@
 /* Geomanist — hosted from https://github.com/remigijus86/hydroponic via jsDelivr */
-/* Tip: later convert OTF -> WOFF2/WOFF for better performance; these OTFs will still work. */
+/* Tip: For faster and more reliable loading, consider converting OTF to WOFF2/WOFF. */
 
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Thin.otf") format("opentype");
-  font-weight:100;font-style:normal;font-display:swap;
+/* Thin (100) */
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Thin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Thin-Italic.otf") format("opentype");
-  font-weight:100;font-style:italic;font-display:swap;
-}
-
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-ExtraLight.otf") format("opentype");
-  font-weight:200;font-style:normal;font-display:swap;
-}
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-ExtraLight-Italic.otf") format("opentype");
-  font-weight:200;font-style:italic;font-display:swap;
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Thin-Italic.otf") format("opentype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
 }
 
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Light.otf") format("opentype");
-  font-weight:300;font-style:normal;font-display:swap;
+/* ExtraLight (200) */
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-ExtraLight.otf") format("opentype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
 }
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Light-Italic.otf") format("opentype");
-  font-weight:300;font-style:italic;font-display:swap;
-}
-
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Regular.otf") format("opentype");
-  font-weight:400;font-style:normal;font-display:swap;
-}
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Regular-Italic.otf") format("opentype");
-  font-weight:400;font-style:italic;font-display:swap;
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-ExtraLight-Italic.otf") format("opentype");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
 }
 
-/* (Optional) Book maps closest to 400 as well
-@font-face{font-family:"Geomanist";src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Book.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap;}
-@font-face{font-family:"Geomanist";src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Book-Italic.otf") format("opentype");font-weight:400;font-style:italic;font-display:swap;}
-*/
-
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Medium.otf") format("opentype");
-  font-weight:500;font-style:normal;font-display:swap;
+/* Light (300) */
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Medium-Italic.otf") format("opentype");
-  font-weight:500;font-style:italic;font-display:swap;
-}
-
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Bold.otf") format("opentype");
-  font-weight:700;font-style:normal;font-display:swap;
-}
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Bold-Italic.otf") format("opentype");
-  font-weight:700;font-style:italic;font-display:swap;
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Light-Italic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
 }
 
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Ultra.otf") format("opentype");
-  font-weight:800;font-style:normal;font-display:swap;
+/* Regular & Book (400) */
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Ultra-Italic.otf") format("opentype");
-  font-weight:800;font-style:italic;font-display:swap;
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Regular-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Book.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Book-Italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
 }
 
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Black.otf") format("opentype");
-  font-weight:900;font-style:normal;font-display:swap;
+/* Medium (500) */
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
-@font-face{
-  font-family:"Geomanist";
-  src:url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Black-Italic.otf") format("opentype");
-  font-weight:900;font-style:italic;font-display:swap;
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Medium-Italic.otf") format("opentype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bold (700) */
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Bold-Italic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Ultra (800) */
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Ultra.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Ultra-Italic.otf") format("opentype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Black (900) */
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Geomanist";
+  src: url("https://cdn.jsdelivr.net/gh/remigijus86/hydroponic@main/Geomanist/Geomanist-Black-Italic.otf") format("opentype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
 }
